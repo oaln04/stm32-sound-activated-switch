@@ -2,8 +2,6 @@
 
 A real-time sound-controlled lighting system built on the STM32L476VG microcontroller. The system continuously monitors ambient audio via an analog sound sensor, and toggles an LED every time a sound event (such as a clap) exceeds a calibrated threshold. Built for CENG 315 at the American University of Ras Al Khaimah.
 
-![STM32L476 Discovery Board](https://www.st.com/content/ccc/fragment/product_related/rpn_information/board_photo/group0/1b/7f/ef/a8/6a/35/43/1c/um1879-discovery-kit-with-stm32l476vg-mcu-stmicroelectronics/files/um1879.jpg/jcr:content/translations/en.um1879.jpg)
-
 ## Demo
 
 Clap once → LED turns ON. Clap again → LED turns OFF. Response time under 10ms.
